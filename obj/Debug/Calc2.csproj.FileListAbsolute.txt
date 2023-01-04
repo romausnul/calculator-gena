@@ -1,0 +1,10 @@
+E:\calck\Calc2_source\bin\Debug\Calc2.exe
+E:\calck\Calc2_source\bin\Debug\Calc2.pdb
+E:\calck\Calc2_source\obj\Debug\Calc2.csproj.AssemblyReference.cache
+E:\calck\Calc2_source\obj\Debug\Calc2.Calc2.resources
+E:\calck\Calc2_source\obj\Debug\Calc2.Properties.Resources.resources
+E:\calck\Calc2_source\obj\Debug\Calc2.SetDlg.resources
+E:\calck\Calc2_source\obj\Debug\Calc2.csproj.GenerateResource.cache
+E:\calck\Calc2_source\obj\Debug\Calc2.csproj.CoreCompileInputs.cache
+E:\calck\Calc2_source\obj\Debug\Calc2.exe
+E:\calck\Calc2_source\obj\Debug\Calc2.pdb
