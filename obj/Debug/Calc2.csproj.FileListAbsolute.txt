@@ -8,3 +8,4 @@ E:\calck\Calc2_source\obj\Debug\Calc2.csproj.GenerateResource.cache
 E:\calck\Calc2_source\obj\Debug\Calc2.csproj.CoreCompileInputs.cache
 E:\calck\Calc2_source\obj\Debug\Calc2.exe
 E:\calck\Calc2_source\obj\Debug\Calc2.pdb
+E:\calck\Calc2_source\obj\Debug\Calc2.Form1.resources

@@ -1,8 +1,4 @@
-﻿///////////////////////////////////////////////////////////////////////////////
-//
-//     http://www.interestprograms.ru - программы, игры и их исходные коды
-//
-///////////////////////////////////////////////////////////////////////////////
+﻿
 
 using System;
 using System.Collections.Generic;
@@ -26,7 +22,9 @@ namespace Calc2
         public string SeparatorDecimalBuffer = null;
         public double FormOpacity = 1;
         double temp = 10.0;
-        
+        private object numericUpDown2;
+        private object numericUpDown1;
+
         private void SetDlg_Load(object sender, EventArgs e)
         {
             string subPrecition = Precision.Substring(1, Precision.Length - 1);
@@ -40,15 +38,13 @@ namespace Calc2
 
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
         {
-            Precision = "F" + numericUpDown1.Value.ToString();
+            Precision = "F"
+                + numericUpDown1.Value.ToString();
             label2.Text = temp.ToString(Precision);
         }
 
-        private void numericUpDown2_ValueChanged(object sender, EventArgs e)
-        {
-            FormOpacity = (double)numericUpDown2.Value / 100.0;
-        }
-        
+        private void numericUpDown2_ValueChanged(object sender, EventArgs e) => FormOpacity = (double)numericUpDown2.Value / 100.0;
+
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -56,6 +52,11 @@ namespace Calc2
         }
 
         private void pictureBox12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
         {
 
         }
